@@ -8,24 +8,11 @@
   box-sizing: border-box;
 }
 
-.app-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
-  margin: 0;
-  font-family: sans-serif;
-  box-sizing: border-box;
-  position: relative;
-}
-
 .information {
   background-color: #19362c;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  padding: 30px;
+  border-radius: 15px;
+  padding: 5px;
   width: 360px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -66,7 +53,7 @@
 }
 
 .img-container {
- width: 100px;
+  width: 100px;
   height: 100px;
   margin: 0 auto 15px auto;
   display: block;
@@ -110,10 +97,10 @@ background-color: #63c6a4;
   background-color: #63c6a4;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 10px;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
